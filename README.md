@@ -6,7 +6,7 @@ Além disso, o **Conduktor** foi usado como ferramenta gráfica para visualizar 
 
 ---
 
-## 🏗Estrutura do Projeto
+## Estrutura do Projeto
 1. **Producer (Gerador de Vendas)**  
    - Gera eventos de vendas (simulando um sistema de ingressos).  
    - Cada evento é serializado em JSON e enviado para um tópico Kafka chamado `vendas-topic`.
@@ -61,3 +61,4 @@ kafka-topics --create \
 kafka-topics --list --bootstrap-server localhost:9092
 kafka-topics --describe --bootstrap-server localhost:9092 --topic vendas-topic
 ```
+
